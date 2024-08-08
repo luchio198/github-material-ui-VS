@@ -1,0 +1,34 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": ["eslint:recommended", "eslint-config-prettier"],
+	"overrides": [],
+	"parserOptions": {
+		"ecmaVersion": "latest"
+	},
+	"rules": {
+		"no-var": "warn",
+		"no-alert": "warn",
+		"no-duplicate-case": "warn",
+		"no-undef": "warn",
+		"no-console": "off",
+		"no-else-return": "off",
+		"no-extra-bind": "off",
+		"no-magic-numbers": "off",
+		"no-multi-spaces": "off",
+		"no-param-reassign": "off",
+		"no-restricted-globals": "off",
+		"no-shadow": "off",
+		"no-underscore-dangle": "off",
+		"no-use-before-define": "off",
+		"no-useless-escape": "off",
+		"no-unused-vars": "off",
+		"arrow-body-style": "off",
+		"prefer-destructuring": "off",
+		"no-extra-boolean-cast": "off"
+	}
+}
